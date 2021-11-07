@@ -36,7 +36,7 @@ export const TypingChallenge = ({
         <div className="textarea-right">
           <textarea
             onChange={(e) => handleOnType(e.target.value)}
-            className="textarea "
+            className="textarea"
             placeholder="Start type here "
           />
         </div>
